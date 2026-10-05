@@ -1,0 +1,25 @@
+# ===================================================
+# robots.txt — Growth Matrix Digital
+# Allows all search engines to crawl the full site
+# ===================================================
+
+User-agent: *
+Allow: /
+
+# Important pages
+Allow: /index.html
+Allow: /founder.html
+Allow: /style.css
+Allow: /script.js
+
+# Block unnecessary files
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /*.py$
+Disallow: /*.txt$
+
+# Sitemap location
+Sitemap: https://growthmatrixdigital.com/sitemap.xml
+
+# Crawl-delay for polite bots
+Crawl-delay: 1
